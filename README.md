@@ -1,4 +1,4 @@
-Send an SMS using Nexmo's Dot Net Client Library
+##Send an SMS using Nexmo's Dot Net Client Library
 
 First, open the 'App.config' file and add your credentials (API Key & API Secret):
 
