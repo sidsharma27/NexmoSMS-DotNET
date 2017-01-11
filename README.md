@@ -2,7 +2,7 @@
 
 First, open the 'App.config' file and add your credentials (API Key & API Secret):
 
-```
+```cs
 <add key="Nexmo.api_key" value="NEXMOAPIKEY"/>
 <add key="Nexmo.api_secret" value="NEXMOAPISECRET" />
 ```
@@ -10,7 +10,7 @@ First, open the 'App.config' file and add your credentials (API Key & API Secret
 Next, open 'Program.cs' and enter the Nexmo virtual number in the 'from' field (found in the customer dashboard under 'Numbers').
 Enter the destination number in the 'to' field (the phone that will recieve the text)
 
-```
+```cs
 var results = SMS.Send(new SMS.SMSRequest
 {
     from = "",
