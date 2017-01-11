@@ -19,4 +19,4 @@ var results = SMS.Send(new SMS.SMSRequest
 });
 ```
 
-That's it! Run the program and enter the text you wish to send!
+Rebuild the project and that's it! Run the program and enter the text you wish to send!
